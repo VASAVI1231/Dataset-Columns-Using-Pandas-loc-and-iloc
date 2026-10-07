@@ -48,7 +48,7 @@ Example:
 
 ```python
 df.loc[0:4, ["sepal_length", "species"]]
-
+```
 ### iloc
 
 iloc is used for integer-position-based selection.
@@ -57,7 +57,7 @@ Example:
 
 ```python
 df.iloc[0:5, [0, 4]]
-
+```
 ## Project Features
 
 The project demonstrates:
