@@ -42,9 +42,32 @@ The dataset is loaded directly using Scikit-learn, so no external dataset downlo
 
 ### loc
 
-`loc` is mainly used for label-based selection.
+loc is mainly used for label-based selection.
 
 Example:
 
 ```python
 df.loc[0:4, ["sepal_length", "species"]]
+
+### iloc
+
+iloc is used for integer-position-based selection.
+
+Example:
+
+```python
+df.iloc[0:5, [0, 4]]
+
+## Project Features
+
+The project demonstrates:
+Single column selection
+Multiple column selection
+Row selection using loc
+Row selection using iloc
+Row and column selection using loc
+Row and column selection using iloc
+Individual value selection
+
+## Conclusion
+This project provides a practical understanding of Pandas loc and iloc. These indexing techniques are useful for data analysis, data preprocessing and machine learning projects.
